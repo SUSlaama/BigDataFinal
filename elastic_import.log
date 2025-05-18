@@ -1,0 +1,474 @@
+2025-05-18 12:40:34,316 - INFO - Iniciando proceso de importación de datos censales
+2025-05-18 12:40:34,325 - INFO - HEAD http://localhost:9200/ [status:200 duration:0.007s]
+2025-05-18 12:40:34,325 - INFO - Conexión a Elasticsearch establecida
+2025-05-18 12:40:34,328 - INFO - HEAD http://localhost:9200/cat_distrito_2020 [status:200 duration:0.002s]
+2025-05-18 12:40:34,328 - INFO - Índice cat_distrito_2020 ya existe
+2025-05-18 12:40:34,330 - INFO - HEAD http://localhost:9200/cat_seccion_2020 [status:200 duration:0.001s]
+2025-05-18 12:40:34,330 - INFO - Índice cat_seccion_2020 ya existe
+2025-05-18 12:40:34,332 - INFO - HEAD http://localhost:9200/ine_distrito_2020 [status:200 duration:0.002s]
+2025-05-18 12:40:34,332 - INFO - Índice ine_distrito_2020 ya existe
+2025-05-18 12:40:34,334 - INFO - HEAD http://localhost:9200/ine_entidad_2020 [status:200 duration:0.001s]
+2025-05-18 12:40:34,334 - INFO - Índice ine_entidad_2020 ya existe
+2025-05-18 12:40:34,335 - INFO - HEAD http://localhost:9200/ine_seccion_2020 [status:200 duration:0.001s]
+2025-05-18 12:40:34,335 - INFO - Índice ine_seccion_2020 ya existe
+2025-05-18 12:40:34,335 - INFO - Leyendo archivo ./eceg_2020_csv/cat_distritos_2020.csv
+2025-05-18 12:40:34,342 - INFO - CSV leído correctamente con 333 registros
+2025-05-18 12:40:34,342 - INFO - Preparando 333 documentos para indexar en cat_distrito_2020
+2025-05-18 12:40:34,400 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.031s]
+2025-05-18 12:40:34,402 - INFO - Lote 1: Indexados 333 documentos, fallidos: 0
+2025-05-18 12:40:34,402 - INFO - Importación a cat_distrito_2020 completada: 333 éxitos, 0 errores
+2025-05-18 12:40:34,402 - INFO - Leyendo archivo ./eceg_2020_csv/cat_secciones_2020.csv
+2025-05-18 12:40:34,525 - INFO - CSV leído correctamente con 69135 registros
+2025-05-18 12:40:34,526 - INFO - Preparando 69135 documentos para indexar en cat_seccion_2020
+2025-05-18 12:40:34,614 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:34,640 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:34,647 - INFO - Lote 1: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:34,731 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:34,757 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:34,763 - INFO - Lote 2: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:34,846 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:34,873 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:34,879 - INFO - Lote 3: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:34,961 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:34,986 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:34,993 - INFO - Lote 4: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,081 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,106 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:35,112 - INFO - Lote 5: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,197 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:35,223 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:35,228 - INFO - Lote 6: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,310 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,336 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:35,342 - INFO - Lote 7: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,425 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,450 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,456 - INFO - Lote 8: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,546 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,571 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:35,577 - INFO - Lote 9: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,660 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,685 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,691 - INFO - Lote 10: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,775 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,800 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,808 - INFO - Lote 11: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:35,889 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,915 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:35,947 - INFO - Lote 12: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,031 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,057 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:36,063 - INFO - Lote 13: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,222 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.021s]
+2025-05-18 12:40:36,247 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:36,253 - INFO - Lote 14: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,337 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,363 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:36,369 - INFO - Lote 15: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,453 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,480 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:36,486 - INFO - Lote 16: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,571 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,597 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:36,604 - INFO - Lote 17: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,688 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,714 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:36,721 - INFO - Lote 18: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,804 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,832 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,838 - INFO - Lote 19: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:36,921 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:36,946 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:36,951 - INFO - Lote 20: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,044 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,070 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,076 - INFO - Lote 21: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,161 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:37,187 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,193 - INFO - Lote 22: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,279 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:37,304 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,311 - INFO - Lote 23: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,393 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,420 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:37,427 - INFO - Lote 24: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,511 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:37,537 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,544 - INFO - Lote 25: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,628 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,653 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,661 - INFO - Lote 26: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,743 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,769 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,775 - INFO - Lote 27: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,859 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:37,885 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:37,891 - INFO - Lote 28: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:37,975 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,002 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:38,009 - INFO - Lote 29: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,093 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,119 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:38,126 - INFO - Lote 30: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,210 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:38,235 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:38,267 - INFO - Lote 31: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,350 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,375 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,381 - INFO - Lote 32: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,472 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-18 12:40:38,498 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:38,504 - INFO - Lote 33: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,587 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,614 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:38,623 - INFO - Lote 34: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,707 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,731 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,737 - INFO - Lote 35: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,820 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:38,845 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,852 - INFO - Lote 36: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:38,935 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,961 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:38,967 - INFO - Lote 37: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,053 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,078 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,085 - INFO - Lote 38: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,178 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,205 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:39,212 - INFO - Lote 39: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,296 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,322 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:39,328 - INFO - Lote 40: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,416 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.014s]
+2025-05-18 12:40:39,442 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-18 12:40:39,453 - INFO - Lote 41: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,540 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:39,577 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,583 - INFO - Lote 42: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,667 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,693 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,704 - INFO - Lote 43: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,788 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.013s]
+2025-05-18 12:40:39,823 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.015s]
+2025-05-18 12:40:39,831 - INFO - Lote 44: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:39,925 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:39,952 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:39,958 - INFO - Lote 45: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,041 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,066 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,073 - INFO - Lote 46: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,157 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,184 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,191 - INFO - Lote 47: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,274 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,300 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,306 - INFO - Lote 48: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,390 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,416 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,423 - INFO - Lote 49: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,505 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,532 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,563 - INFO - Lote 50: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,647 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,673 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,679 - INFO - Lote 51: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,765 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,793 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:40,799 - INFO - Lote 52: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:40,883 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:40,909 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:40,915 - INFO - Lote 53: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,000 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:41,027 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:41,033 - INFO - Lote 54: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,172 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.018s]
+2025-05-18 12:40:41,198 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:41,205 - INFO - Lote 55: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,289 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:41,315 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:41,321 - INFO - Lote 56: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,405 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:41,432 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:41,438 - INFO - Lote 57: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,522 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:41,547 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-18 12:40:41,554 - INFO - Lote 58: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,637 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:41,663 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:41,669 - INFO - Lote 59: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,754 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:41,781 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:41,787 - INFO - Lote 60: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,872 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:41,898 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:41,904 - INFO - Lote 61: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:41,989 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:42,016 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-18 12:40:42,023 - INFO - Lote 62: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,107 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:42,133 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:42,139 - INFO - Lote 63: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,224 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:42,250 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:42,255 - INFO - Lote 64: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,338 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:42,364 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:42,370 - INFO - Lote 65: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,454 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:42,480 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:42,486 - INFO - Lote 66: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,572 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:42,598 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:42,604 - INFO - Lote 67: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,694 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.012s]
+2025-05-18 12:40:42,722 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.011s]
+2025-05-18 12:40:42,729 - INFO - Lote 68: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,812 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.010s]
+2025-05-18 12:40:42,838 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.009s]
+2025-05-18 12:40:42,868 - INFO - Lote 69: Indexados 0 documentos, fallidos: 1000
+2025-05-18 12:40:42,885 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.003s]
+2025-05-18 12:40:42,886 - INFO - Lote 70: Indexados 0 documentos, fallidos: 135
+2025-05-18 12:40:42,886 - INFO - Importación a cat_seccion_2020 completada: 0 éxitos, 69135 errores
+2025-05-18 12:40:42,887 - INFO - Leyendo archivo ./eceg_2020_csv/INE_DISTRITO_2020.CSV
+2025-05-18 12:40:42,908 - INFO - CSV leído correctamente con 300 registros
+2025-05-18 12:40:42,909 - INFO - Preparando 300 documentos para indexar en ine_distrito_2020
+2025-05-18 12:40:43,116 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.129s]
+2025-05-18 12:40:43,119 - INFO - Lote 1: Indexados 300 documentos, fallidos: 0
+2025-05-18 12:40:43,119 - INFO - Importación a ine_distrito_2020 completada: 300 éxitos, 0 errores
+2025-05-18 12:40:43,122 - INFO - Leyendo archivo ./eceg_2020_csv/INE_ENTIDAD_2020.CSV
+2025-05-18 12:40:43,147 - INFO - CSV leído correctamente con 32 registros
+2025-05-18 12:40:43,148 - INFO - Preparando 32 documentos para indexar en ine_entidad_2020
+2025-05-18 12:40:43,268 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.106s]
+2025-05-18 12:40:43,269 - INFO - Lote 1: Indexados 32 documentos, fallidos: 0
+2025-05-18 12:40:43,269 - INFO - Importación a ine_entidad_2020 completada: 32 éxitos, 0 errores
+2025-05-18 12:40:43,269 - INFO - Leyendo archivo ./eceg_2020_csv/INE_SECCION_2020.csv
+2025-05-18 12:40:45,624 - INFO - CSV leído correctamente con 68806 registros
+2025-05-18 12:40:45,625 - INFO - Preparando 68806 documentos para indexar en ine_seccion_2020
+2025-05-18 12:40:45,917 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.137s]
+2025-05-18 12:40:46,188 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.227s]
+2025-05-18 12:40:46,190 - INFO - Lote 1: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:46,824 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.447s]
+2025-05-18 12:40:47,039 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.169s]
+2025-05-18 12:40:47,042 - INFO - Lote 2: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:47,383 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.151s]
+2025-05-18 12:40:47,664 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.200s]
+2025-05-18 12:40:47,667 - INFO - Lote 3: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:47,987 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.134s]
+2025-05-18 12:40:48,219 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.140s]
+2025-05-18 12:40:48,224 - INFO - Lote 4: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:48,587 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.158s]
+2025-05-18 12:40:48,823 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.168s]
+2025-05-18 12:40:48,829 - INFO - Lote 5: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:49,220 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.163s]
+2025-05-18 12:40:49,446 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.158s]
+2025-05-18 12:40:49,449 - INFO - Lote 6: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:49,788 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.138s]
+2025-05-18 12:40:49,990 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.147s]
+2025-05-18 12:40:49,993 - INFO - Lote 7: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:50,307 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.136s]
+2025-05-18 12:40:50,489 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.130s]
+2025-05-18 12:40:50,492 - INFO - Lote 8: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:50,810 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.142s]
+2025-05-18 12:40:50,999 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.138s]
+2025-05-18 12:40:51,002 - INFO - Lote 9: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:51,306 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.130s]
+2025-05-18 12:40:51,502 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.146s]
+2025-05-18 12:40:51,505 - INFO - Lote 10: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:51,822 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.142s]
+2025-05-18 12:40:52,025 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.152s]
+2025-05-18 12:40:52,028 - INFO - Lote 11: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:52,345 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.146s]
+2025-05-18 12:40:52,566 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.166s]
+2025-05-18 12:40:52,570 - INFO - Lote 12: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:52,958 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.169s]
+2025-05-18 12:40:53,179 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.161s]
+2025-05-18 12:40:53,182 - INFO - Lote 13: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:53,547 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.181s]
+2025-05-18 12:40:53,778 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.177s]
+2025-05-18 12:40:53,781 - INFO - Lote 14: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:54,106 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.152s]
+2025-05-18 12:40:54,389 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.228s]
+2025-05-18 12:40:54,392 - INFO - Lote 15: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:54,702 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:40:54,901 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.146s]
+2025-05-18 12:40:54,904 - INFO - Lote 16: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:55,225 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.143s]
+2025-05-18 12:40:55,433 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.133s]
+2025-05-18 12:40:55,436 - INFO - Lote 17: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:55,778 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.141s]
+2025-05-18 12:40:56,015 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.186s]
+2025-05-18 12:40:56,018 - INFO - Lote 18: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:56,321 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.133s]
+2025-05-18 12:40:56,502 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.133s]
+2025-05-18 12:40:56,505 - INFO - Lote 19: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:56,827 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.134s]
+2025-05-18 12:40:57,018 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:40:57,021 - INFO - Lote 20: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:57,338 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.142s]
+2025-05-18 12:40:57,523 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:40:57,525 - INFO - Lote 21: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:57,845 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.147s]
+2025-05-18 12:40:58,063 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.136s]
+2025-05-18 12:40:58,066 - INFO - Lote 22: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:58,529 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.246s]
+2025-05-18 12:40:58,743 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.147s]
+2025-05-18 12:40:58,746 - INFO - Lote 23: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:59,071 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.134s]
+2025-05-18 12:40:59,254 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.132s]
+2025-05-18 12:40:59,257 - INFO - Lote 24: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:40:59,564 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.131s]
+2025-05-18 12:40:59,812 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.166s]
+2025-05-18 12:40:59,815 - INFO - Lote 25: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:00,137 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.134s]
+2025-05-18 12:41:00,318 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.129s]
+2025-05-18 12:41:00,321 - INFO - Lote 26: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:00,637 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.131s]
+2025-05-18 12:41:00,846 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.157s]
+2025-05-18 12:41:00,849 - INFO - Lote 27: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:01,149 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.128s]
+2025-05-18 12:41:01,329 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.130s]
+2025-05-18 12:41:01,331 - INFO - Lote 28: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:01,635 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.132s]
+2025-05-18 12:41:01,815 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.129s]
+2025-05-18 12:41:01,817 - INFO - Lote 29: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:02,128 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:41:02,310 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.131s]
+2025-05-18 12:41:02,312 - INFO - Lote 30: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:02,661 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.178s]
+2025-05-18 12:41:03,378 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.565s]
+2025-05-18 12:41:03,381 - INFO - Lote 31: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:03,697 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.136s]
+2025-05-18 12:41:03,936 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.154s]
+2025-05-18 12:41:03,940 - INFO - Lote 32: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:04,285 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.139s]
+2025-05-18 12:41:04,486 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.144s]
+2025-05-18 12:41:04,489 - INFO - Lote 33: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:04,809 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.134s]
+2025-05-18 12:41:04,989 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.129s]
+2025-05-18 12:41:04,992 - INFO - Lote 34: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:05,300 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.132s]
+2025-05-18 12:41:05,482 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.131s]
+2025-05-18 12:41:05,485 - INFO - Lote 35: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:05,824 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:41:06,004 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.127s]
+2025-05-18 12:41:06,006 - INFO - Lote 36: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:06,324 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.132s]
+2025-05-18 12:41:06,516 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:41:06,519 - INFO - Lote 37: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:06,830 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.133s]
+2025-05-18 12:41:07,010 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.129s]
+2025-05-18 12:41:07,013 - INFO - Lote 38: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:07,329 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.143s]
+2025-05-18 12:41:07,508 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.130s]
+2025-05-18 12:41:07,511 - INFO - Lote 39: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:07,812 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.125s]
+2025-05-18 12:41:07,991 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.128s]
+2025-05-18 12:41:07,994 - INFO - Lote 40: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:08,294 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.127s]
+2025-05-18 12:41:08,470 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.126s]
+2025-05-18 12:41:08,473 - INFO - Lote 41: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:08,776 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.126s]
+2025-05-18 12:41:08,953 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.128s]
+2025-05-18 12:41:08,956 - INFO - Lote 42: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:09,288 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.138s]
+2025-05-18 12:41:09,519 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.169s]
+2025-05-18 12:41:09,525 - INFO - Lote 43: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:10,021 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.170s]
+2025-05-18 12:41:10,253 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.155s]
+2025-05-18 12:41:10,257 - INFO - Lote 44: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:10,679 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.180s]
+2025-05-18 12:41:10,908 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.162s]
+2025-05-18 12:41:10,915 - INFO - Lote 45: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:11,478 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.323s]
+2025-05-18 12:41:11,719 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.175s]
+2025-05-18 12:41:11,723 - INFO - Lote 46: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:12,113 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.165s]
+2025-05-18 12:41:12,341 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.160s]
+2025-05-18 12:41:12,344 - INFO - Lote 47: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:12,922 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.297s]
+2025-05-18 12:41:13,405 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.322s]
+2025-05-18 12:41:13,408 - INFO - Lote 48: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:13,817 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.166s]
+2025-05-18 12:41:14,045 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.160s]
+2025-05-18 12:41:14,048 - INFO - Lote 49: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:14,456 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.177s]
+2025-05-18 12:41:14,843 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.266s]
+2025-05-18 12:41:14,850 - INFO - Lote 50: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:15,401 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.158s]
+2025-05-18 12:41:15,915 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.443s]
+2025-05-18 12:41:15,952 - INFO - Lote 51: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:16,661 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.385s]
+2025-05-18 12:41:16,899 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.155s]
+2025-05-18 12:41:16,902 - INFO - Lote 52: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:17,210 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.131s]
+2025-05-18 12:41:17,443 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.182s]
+2025-05-18 12:41:17,445 - INFO - Lote 53: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:17,783 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.173s]
+2025-05-18 12:41:17,977 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.138s]
+2025-05-18 12:41:17,980 - INFO - Lote 54: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:18,316 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.130s]
+2025-05-18 12:41:18,502 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:41:18,505 - INFO - Lote 55: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:18,809 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.125s]
+2025-05-18 12:41:18,987 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.127s]
+2025-05-18 12:41:18,990 - INFO - Lote 56: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:19,296 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.128s]
+2025-05-18 12:41:19,472 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.126s]
+2025-05-18 12:41:19,475 - INFO - Lote 57: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:19,778 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.128s]
+2025-05-18 12:41:19,956 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.127s]
+2025-05-18 12:41:19,959 - INFO - Lote 58: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:20,273 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.137s]
+2025-05-18 12:41:20,486 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.133s]
+2025-05-18 12:41:20,489 - INFO - Lote 59: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:20,856 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.148s]
+2025-05-18 12:41:21,081 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.166s]
+2025-05-18 12:41:21,088 - INFO - Lote 60: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:21,440 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.146s]
+2025-05-18 12:41:21,625 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.132s]
+2025-05-18 12:41:21,627 - INFO - Lote 61: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:21,938 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.130s]
+2025-05-18 12:41:22,121 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.133s]
+2025-05-18 12:41:22,124 - INFO - Lote 62: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:22,427 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.129s]
+2025-05-18 12:41:22,606 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.128s]
+2025-05-18 12:41:22,609 - INFO - Lote 63: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:22,910 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.126s]
+2025-05-18 12:41:23,151 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.172s]
+2025-05-18 12:41:23,154 - INFO - Lote 64: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:23,478 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.139s]
+2025-05-18 12:41:23,667 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:41:23,670 - INFO - Lote 65: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:24,012 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.164s]
+2025-05-18 12:41:24,327 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.241s]
+2025-05-18 12:41:24,330 - INFO - Lote 66: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:24,677 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.139s]
+2025-05-18 12:41:24,871 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.139s]
+2025-05-18 12:41:24,874 - INFO - Lote 67: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:25,191 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.135s]
+2025-05-18 12:41:25,429 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.181s]
+2025-05-18 12:41:25,433 - INFO - Lote 68: Indexados 1000 documentos, fallidos: 0
+2025-05-18 12:41:25,750 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.139s]
+2025-05-18 12:41:25,885 - INFO - PUT http://localhost:9200/_bulk [status:200 duration:0.097s]
+2025-05-18 12:41:25,888 - INFO - Lote 69: Indexados 806 documentos, fallidos: 0
+2025-05-18 12:41:25,889 - INFO - Importación a ine_seccion_2020 completada: 68806 éxitos, 0 errores
+2025-05-18 12:41:25,896 - INFO - ============================================================
+2025-05-18 12:41:25,896 - INFO - Proceso completado en 51.58 segundos
+2025-05-18 12:41:25,897 - INFO - Total documentos indexados: 69471
+2025-05-18 12:41:25,897 - INFO - Total errores: 69135
+2025-05-18 12:41:25,897 - INFO - Tablas procesadas correctamente: 4
+2025-05-18 12:41:25,898 - INFO - Tablas con errores: 1
+2025-05-18 12:41:25,898 - INFO - Tablas OK: cat_distrito_2020, ine_distrito_2020, ine_entidad_2020, ine_seccion_2020
+2025-05-18 12:41:25,899 - WARNING - Tablas con errores: cat_seccion_2020 (parcial: 0/69135)
+2025-05-18 12:41:25,901 - INFO - POST http://localhost:9200/cat_distrito_2020/_count [status:200 duration:0.002s]
+2025-05-18 12:41:25,901 - INFO - Índice cat_distrito_2020: 42 documentos
+2025-05-18 12:41:25,904 - INFO - POST http://localhost:9200/cat_seccion_2020/_count [status:200 duration:0.002s]
+2025-05-18 12:41:25,904 - INFO - Índice cat_seccion_2020: 0 documentos
+2025-05-18 12:41:25,907 - INFO - POST http://localhost:9200/ine_distrito_2020/_count [status:200 duration:0.002s]
+2025-05-18 12:41:25,907 - INFO - Índice ine_distrito_2020: 41 documentos
+2025-05-18 12:41:25,910 - INFO - POST http://localhost:9200/ine_entidad_2020/_count [status:200 duration:0.002s]
+2025-05-18 12:41:25,910 - INFO - Índice ine_entidad_2020: 32 documentos
+2025-05-18 12:41:25,914 - INFO - POST http://localhost:9200/ine_seccion_2020/_count [status:200 duration:0.003s]
+2025-05-18 12:41:25,914 - INFO - Índice ine_seccion_2020: 12110 documentos
+2025-05-18 12:41:25,915 - INFO - ============================================================
