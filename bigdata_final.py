@@ -987,7 +987,7 @@ def main():
     }
     
     # Directorio donde se encuentran los CSV
-    csv_dir = "./eceg_2020_csv/"  # Ajusta según tu estructura
+    csv_dir = "./eceg_2020_csv/" 
     
     # Resultados totales
     total_success = 0
